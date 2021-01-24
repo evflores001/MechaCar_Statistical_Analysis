@@ -38,3 +38,25 @@ Performing the T-Test on all lots and then per individual demonstrated that ther
 The following T-Test results were rendered:
 ![](https://github.com/evflores001/MechaCar_Statistical_Analysis/blob/main/Results/ttest.png)
 ![](https://github.com/evflores001/MechaCar_Statistical_Analysis/blob/main/Results/ttest2.png)
+
+## Study Design: MechaCar vs Competition
+---
+
+A statistical study that can be quantifys how MechaCar performs against the compitition and is of interest is predicting maintenance cost on a vehicle depending on that specific vehicle's fuel effeciency and horsepower.
+
+* What metric or metrics are you going to test?
+
+The metrics I would use to test from both MechaCars and its compititors would be fuel effeciency, horsepower, and maintenance fees.
+
+* What is the null hypothesis or alternative hypothesis?
+
+The null hypothesis would be that the two factors (i.e., fuel effeciency, horsepower) do not make a difference in maintenance costs.
+The alternative hypothesis would be that these two factors do make a difference in MechaCars maintenance fees vs its competitors
+
+* What statistical test would you use to test the hypothesis? And why?
+
+Because we are trying to predict the outcome of a dependent variable using multiple independent variables, I would use a multiple linear regression model.
+
+* What data is needed to run the statistical test?
+
+I would need historical data which include maintenance costs of vehicles of the years as well as the cars fuel efficiency and horsepower.
