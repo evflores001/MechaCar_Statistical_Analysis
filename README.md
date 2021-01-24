@@ -30,3 +30,11 @@ Looking at the total summary dataframe, the manufacturing data does suggest that
 However, when looking at the summaries per lot, it is clear that not all lots are well within their alotted variance. From the following image, we can see that lot three is almost twice as much as the alotted variance.
 
 ![](https://github.com/evflores001/MechaCar_Statistical_Analysis/blob/main/Results/lotSummary.png)
+
+## T-Tests on Suspension Coils
+
+Performing the T-Test on all lots and then per individual demonstrated that there are some significant statistical differences between lot 3 versus the rest of the lots. Out of all the lots, lot 3 had a higher magnitute value for it's T-Value and a p-value less than alpha (<0.05) thus this rejects the null hypothesis; this lot had the highest statistical differences compared to other lots
+
+The following T-Test results were rendered:
+![](https://github.com/evflores001/MechaCar_Statistical_Analysis/blob/main/Results/ttest.png)
+![](https://github.com/evflores001/MechaCar_Statistical_Analysis/blob/main/Results/ttest2.png)
