@@ -37,30 +37,34 @@ However, when looking at the summaries per lot, it is clear that not all lots ar
 
 ## T-Tests on Suspension Coils
 
-Lastly, we ran tests on each lot independently to study if there were any significant Performing the T-Test on all lots and then per individual demonstrated that there are some significant statistical differences between lot 3 versus the rest of the lots. Out of all the lots, lot 3 had a higher magnitute value for it's T-Value and a p-value less than alpha (<0.05) thus this rejects the null hypothesis; this lot had the highest statistical differences compared to other lots
+Lastly, we ran tests on each lot independently to study if there were any significant differences of the PSI levels across the three lots. By performing T-test for all of the lots and then independently, we are able to return the significance value which will tell us if there is any significant differences across the means. Though lot 3 had the lowest p-value, the first two and the three lots combined failed to reject that there is statistical differences among the means.
 
 The following T-Test results were rendered:
+
+### All three lots and lot one, respectively.
 ![](https://github.com/evflores001/MechaCar_Statistical_Analysis/blob/main/Results/ttest.png)
+
+### Lots 2 and 3, respectively.
 ![](https://github.com/evflores001/MechaCar_Statistical_Analysis/blob/main/Results/ttest2.png)
 
 ## Study Design: MechaCar vs Competition
 ---
 
-A statistical study that can be quantifys how MechaCar performs against the compitition and is of interest is predicting maintenance cost on a vehicle depending on that specific vehicle's fuel effeciency and horsepower.
+A statistical study that can be quantified on how MechaCar performs against the compitition and is of interest to consumers is predicting maintenance cost on a vehicle depending on that specific vehicle's fuel effeciency and horsepower.
 
-* What metric or metrics are you going to test?
+1. What metric or metrics are you going to test?
 
 The metrics I would use to test from both MechaCars and its compititors would be fuel effeciency, horsepower, and maintenance fees.
 
-* What is the null hypothesis or alternative hypothesis?
+2. What is the null hypothesis or alternative hypothesis?
 
 The null hypothesis would be that the two factors (i.e., fuel effeciency, horsepower) do not make a difference in maintenance costs.
 The alternative hypothesis would be that these two factors do make a difference in MechaCars maintenance fees vs its competitors
 
-* What statistical test would you use to test the hypothesis? And why?
+3. What statistical test would you use to test the hypothesis? And why?
 
 Because we are trying to predict the outcome of a dependent variable using multiple independent variables, I would use a multiple linear regression model.
 
-* What data is needed to run the statistical test?
+4. What data is needed to run the statistical test?
 
 I would need historical data which include maintenance costs of vehicles of the years as well as the cars fuel efficiency and horsepower.
